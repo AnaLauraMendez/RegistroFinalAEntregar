@@ -38,7 +38,6 @@ namespace RegistroVfinal
             public void btGuardar_Click(object sender, EventArgs e)
             {
                 //este es el evento donde asigno las cosas al boton guardar
-
                 Usuario.Nombre = txtNombre.Text;
                 Usuario.Apellido = txtApellido.Text;
                 Usuario.Nacimiento = dtFecha.Text;
